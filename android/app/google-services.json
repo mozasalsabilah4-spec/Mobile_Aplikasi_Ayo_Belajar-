@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "255731322001",
+    "project_id": "kartu-belajar-3bdaf",
+    "storage_bucket": "kartu-belajar-3bdaf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255731322001:android:29fccd61a317994a1c0330",
+        "android_client_info": {
+          "package_name": "com.example.kartu_belajar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuoQf5VOcqqGB3ZlPUqTcP6BIAont-I1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "kartu-belajar-3bdaf",
+          "appId": "1:255731322001:android:29fccd61a317994a1c0330",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "kartu-belajar-3bdaf",
+          "configurations": {
+            "android": "1:255731322001:android:29fccd61a317994a1c0330",
+            "web": "1:255731322001:web:08ca4f2d60f309621c0330"
+          }
+        }
+      }
+    }
+  }
+}
